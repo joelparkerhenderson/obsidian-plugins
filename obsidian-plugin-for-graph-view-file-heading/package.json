@@ -1,0 +1,44 @@
+{
+	"name": "graph-view-file-heading",
+	"version": "1.0.0",
+	"description": "In the graph view, shows each file's first H1 heading instead of the filename.",
+	"main": "main.js",
+	"type": "module",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"version": "node version-bump.mjs && git add manifest.json versions.json",
+		"lint": "eslint .",
+		"test": "vitest run"
+	},
+	"keywords": [],
+	"author": {
+		"name": "Joel Parker Henderson",
+		"email": "joel@joelparkerhenderson.com"
+	},
+	"license": "MIT OR GPL-2.0-only OR GPL-3.0-only OR Apache-2.0",
+	"devDependencies": {
+		"@eslint/js": "^9.39.4",
+		"@types/node": "^22.15.0",
+		"@typescript-eslint/utils": "^8.58.0",
+		"esbuild": "^0.27.0",
+		"eslint": "^9.39.4",
+		"eslint-plugin-obsidianmd": "0.1.9",
+		"globals": "14.0.0",
+		"jiti": "^2.6.1",
+		"tslib": "2.4.0",
+		"typescript": "~5.8.3",
+		"typescript-eslint": "^8.35.1",
+		"vitest": "^4.1.2"
+	},
+	"dependencies": {
+		"obsidian": "latest"
+	},
+	"pnpm": {
+		"peerDependencyRules": {
+			"allowAny": [
+				"obsidian"
+			]
+		}
+	}
+}

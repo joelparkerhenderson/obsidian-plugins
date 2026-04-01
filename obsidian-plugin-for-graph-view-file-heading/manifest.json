@@ -1,0 +1,10 @@
+{
+	"id": "graph-view-file-heading",
+	"name": "Graph View File Heading",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "In the graph view, shows each file's first H1 heading instead of the filename.",
+	"author": "Joel Parker Henderson",
+	"authorUrl": "mailto:joel@joelparkerhenderson.com",
+	"isDesktopOnly": false
+}

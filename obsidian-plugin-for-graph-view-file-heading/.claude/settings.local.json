@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/jph/git/sixarm/mast-cell-help/topics/.obsidian/plugins/**)",
+      "Bash(mv obsidian-sample-plugin:*)",
+      "Bash(npm run:*)",
+      "Bash(npm install:*)",
+      "Bash(npx eslint:*)",
+      "Bash(pnpm add:*)",
+      "Bash(pnpm test:*)",
+      "Bash(pnpm install:*)",
+      "Bash(pnpm run:*)",
+      "Bash(gh api:*)",
+      "WebFetch(domain:raw.githubusercontent.com)"
+    ]
+  }
+}
